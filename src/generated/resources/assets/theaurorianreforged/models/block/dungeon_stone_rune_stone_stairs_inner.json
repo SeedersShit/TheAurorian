@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "theaurorianreforged:block/dungeon_stone_rune_stone",
+    "side": "theaurorianreforged:block/dungeon_stone_rune_stone",
+    "top": "theaurorianreforged:block/dungeon_stone_rune_stone"
+  }
+}

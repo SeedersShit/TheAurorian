@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "theaurorianreforged:aurorian_farm_tile"
+        }
+      ],
+      "name": "aurorian_farm_tile",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "theaurorianreforged:aurorian_farm_tile"
+}

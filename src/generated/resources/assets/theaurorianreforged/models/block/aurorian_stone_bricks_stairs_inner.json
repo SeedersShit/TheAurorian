@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "theaurorianreforged:block/aurorian_stone_brick",
+    "side": "theaurorianreforged:block/aurorian_stone_brick",
+    "top": "theaurorianreforged:block/aurorian_stone_brick"
+  }
+}

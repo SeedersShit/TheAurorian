@@ -47,9 +47,18 @@ runs {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+    runtimeOnly("curse.maven:jade-324717:${jade_id}")
 }
 
 tasks.withType(ProcessResources).configureEach {

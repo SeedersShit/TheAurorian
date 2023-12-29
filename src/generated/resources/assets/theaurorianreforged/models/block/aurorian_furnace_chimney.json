@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theaurorianreforged:block/aurorian_furnace_chimney",
+    "east": "theaurorianreforged:block/aurorian_furnace_chimney",
+    "north": "theaurorianreforged:block/aurorian_furnace_chimney",
+    "south": "theaurorianreforged:block/aurorian_furnace_chimney",
+    "up": "theaurorianreforged:block/aurorian_furnace_chimney_top",
+    "west": "theaurorianreforged:block/aurorian_furnace_chimney"
+  }
+}

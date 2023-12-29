@@ -24,7 +24,7 @@ public class BlockRegistry
     public static final DeferredBlock<Block> AURORIAN_PORTAL_FRAME_BRICKS = BLOCKS.register("aurorian_portal_frame_bricks", AurorianPortalFrameBricks::new);
     public static final DeferredBlock<Block> AURORIAN_STONE = BLOCKS.register("aurorian_stone", AurorianStone::new);
     public static final DeferredBlock<Block> AURORIAN_STONE_BRICK = BLOCKS.register("aurorian_stone_brick", AurorianStoneBrick::new);
-    public static final DeferredBlock<Block> AURORIAN_STONE_BRICKS_STAIRS = BLOCKS.register("aurorian_stone_bricks_stairs", () -> new StairsBlock(AURORIAN_STONE_BRICK.get().defaultBlockState()));
+    public static final DeferredBlock<StairBlock> AURORIAN_STONE_BRICKS_STAIRS = BLOCKS.register("aurorian_stone_bricks_stairs", () -> new StairsBlock(AURORIAN_STONE_BRICK.get().defaultBlockState()));
     public static final DeferredBlock<Block> BOSS_SPAWNER_KEEPER = BLOCKS.register("boss_spawner_keeper", BossSpawner::new);
     public static final DeferredBlock<Block> BOSS_SPAWNER_MOON_QUEEN = BLOCKS.register("boss_spawner_moon_queen", BossSpawner::new);
     public static final DeferredBlock<Block> BOSS_SPAWNER_SPIDER = BLOCKS.register("boss_spawner_spider", BossSpawner::new);
@@ -33,18 +33,18 @@ public class BlockRegistry
     public static final DeferredBlock<Block> DUNGEON_STONE_DARK_FANCY = BLOCKS.register("dungeon_stone_dark_fancy", DungeonStone::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_DARK_GATE = BLOCKS.register("dungeon_stone_dark_gate", DungeonStoneGate::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_DARK_GATE_KEYHOLE = BLOCKS.register("dungeon_stone_dark_gate_keyhole", DungeonStoneGateKeyhole::new);
-    public static final DeferredBlock<Block> DUNGEON_STONE_DARK_LAMP = BLOCKS.register("dungeon_stone_lamp", DungeonStoneLamp::new);
+    public static final DeferredBlock<Block> DUNGEON_STONE_DARK_LAMP = BLOCKS.register("dungeon_stone_dark_lamp", DungeonStoneLamp::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_DARK_LAYERS = BLOCKS.register("dungeon_stone_dark_layers", DungeonStone::new);
-    public static final DeferredBlock<Block> DUNGEON_STONE_DARK_STAIRS = BLOCKS.register("dungeon_stone_dark_stairs", () -> new StairsBlock(DUNGEON_STONE_DARK.get().defaultBlockState()));
+    public static final DeferredBlock<StairBlock> DUNGEON_STONE_DARK_STAIRS = BLOCKS.register("dungeon_stone_dark_stairs", () -> new StairsBlock(DUNGEON_STONE_DARK.get().defaultBlockState()));
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE = BLOCKS.register("dungeon_stone_moon_temple", DungeonStone::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_BARS = BLOCKS.register("dungeon_stone_moon_temple_bars", DungeonStoneBars::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_GATE = BLOCKS.register("dungeon_stone_moon_temple_gate", DungeonStoneGate::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_GATE_CELL = BLOCKS.register("dungeon_stone_moon_temple_gate_cell", DungeonStoneGate::new);
-    public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_GATE_KEYHOLE = BLOCKS.register("dungeon_stone_moon_temple_gate_key_hole", DungeonStoneGateKeyhole::new);
+    public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_GATE_KEYHOLE = BLOCKS.register("dungeon_stone_moon_temple_gate_keyhole", DungeonStoneGateKeyhole::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_GATE_KEYHOLE_CELL = BLOCKS.register("dungeon_stone_moon_temple_gate_keyhole_cell", DungeonStoneGateKeyhole::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_LAMP = BLOCKS.register("dungeon_stone_moon_temple_lamp", DungeonStoneLamp::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_SMOOTH = BLOCKS.register("dungeon_stone_moon_temple_smooth", DungeonStoneSmooth::new);
-    public static final DeferredBlock<Block> DUNGEON_STONE_MOON_TEMPLE_STAIRS = BLOCKS.register("dungeon_stone_moon_temple_stairs", () -> new StairsBlock(DUNGEON_STONE_MOON_TEMPLE.get().defaultBlockState()));
+    public static final DeferredBlock<StairBlock> DUNGEON_STONE_MOON_TEMPLE_STAIRS = BLOCKS.register("dungeon_stone_moon_temple_stairs", () -> new StairsBlock(DUNGEON_STONE_MOON_TEMPLE.get().defaultBlockState()));
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE = BLOCKS.register("dungeon_stone_rune_stone", DungeonStone::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_BARS = BLOCKS.register("dungeon_stone_rune_stone_bars", DungeonStoneBars::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_GATE = BLOCKS.register("dungeon_stone_rune_stone_gate", DungeonStoneGate::new);
@@ -53,7 +53,7 @@ public class BlockRegistry
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_GATE_LOOT = BLOCKS.register("dungeon_stone_rune_stone_gate_loot", DungeonStoneGate::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_LAMP = BLOCKS.register("dungeon_stone_rune_stone_lamp", DungeonStoneLamp::new);
     public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_SMOOTH = BLOCKS.register("dungeon_stone_rune_stone_smooth", DungeonStoneSmooth::new);
-    public static final DeferredBlock<Block> DUNGEON_STONE_RUNE_STONE_STAIRS = BLOCKS.register("dungeon_stone_rune_stone_stairs", () -> new StairsBlock(DUNGEON_STONE_RUNE_STONE.get().defaultBlockState()));
+    public static final DeferredBlock<StairBlock> DUNGEON_STONE_RUNE_STONE_STAIRS = BLOCKS.register("dungeon_stone_rune_stone_stairs", () -> new StairsBlock(DUNGEON_STONE_RUNE_STONE.get().defaultBlockState()));
        /* FLUIDMOLTENCERULEAN(new MoltenCeruleanFluidBlock()),
         FLUIDMOLTENMOONSTONE(new MoltenMoonstoneFluidBlock()),
         FLUIDMOLTENAURORIANSTEEL(new MoltenAurorianSteelFluidBlock()),

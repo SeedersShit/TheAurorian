@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theaurorianreforged:block/aurorian_grass_side",
+    "east": "theaurorianreforged:block/aurorian_grass_side",
+    "north": "theaurorianreforged:block/aurorian_grass_side",
+    "south": "theaurorianreforged:block/aurorian_grass_side",
+    "up": "theaurorianreforged:block/aurorian_grass_top",
+    "west": "theaurorianreforged:block/aurorian_grass_side"
+  }
+}

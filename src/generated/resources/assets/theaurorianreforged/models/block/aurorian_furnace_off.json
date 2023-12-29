@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "theaurorianreforged:block/aurorian_furnace_face_off",
+    "side": "theaurorianreforged:block/aurorian_furnace_side",
+    "top": "theaurorianreforged:block/aurorian_furnace_top"
+  }
+}

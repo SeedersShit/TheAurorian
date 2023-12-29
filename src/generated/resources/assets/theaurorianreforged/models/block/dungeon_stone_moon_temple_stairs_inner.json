@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "theaurorianreforged:block/dungeon_stone_moon_temple",
+    "side": "theaurorianreforged:block/dungeon_stone_moon_temple",
+    "top": "theaurorianreforged:block/dungeon_stone_moon_temple"
+  }
+}

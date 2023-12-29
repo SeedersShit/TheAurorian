@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "theaurorianreforged:aurorian_furnace_off"
+        }
+      ],
+      "name": "aurorian_furnace_off",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "theaurorianreforged:aurorian_furnace_off"
+}
